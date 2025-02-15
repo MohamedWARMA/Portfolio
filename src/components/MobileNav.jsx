@@ -13,8 +13,8 @@ function MobileNav() {
                 <CiMenuFries className="text-[32px] text-accent" />
             </SheetTrigger>
             <SheetContent className="flex flex-col">
-                <dv className="mt-32 mb-32 text-center text-2xl">
-                    <Link href={'/'}>Mohamed W.</Link>
+                <dv className="mt-2 mb-14 text-center text-2xl">
+                    <Link href={'/'}>Mohamed<span className="text-accent">.</span></Link>
                 </dv>
 
                 <nav className="flex flex-col justify-center items-center gap-8">

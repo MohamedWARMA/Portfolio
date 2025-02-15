@@ -11,7 +11,7 @@ function Header() {
         
         {/* logo */}
         <Link href={'/'} className='text-2xl text-black'>
-            Mohamed W<span className="text-accent">.</span>
+            Mohamed<span className="text-accent">.</span>
         </Link>
 
         {/* desktop nav */}
