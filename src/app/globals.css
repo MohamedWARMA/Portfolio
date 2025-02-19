@@ -20,4 +20,12 @@
   .h2{
     @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold
   }
+
+  .text-outline{
+    -webkit-text-stroke: 1px #07606c;
+  }
+
+  .text-outline-hover{
+    -webkit-text-stroke: 1px #07c1b2;
+  }
 }
