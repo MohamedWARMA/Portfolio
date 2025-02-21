@@ -7,34 +7,23 @@ import Link from 'next/link'
 const services = [
   {
     num:'01',
-    title:'web development',
-    description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, reiciendis!',
+    title:'Front-End Development',
+    description:'Front-End Development using HTML5,CSS3,JAVASCRIPT and REACT',
     href:''
   },
   {
     num:'02',
-    title:'Mobile development',
-    description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, reiciendis!',
+    title:'Back-End Development',
+    description:'Back-End Development using Python, SQL and Django',
     href:''
   },
   {
     num:'03',
-    title:'Cloud computing',
-    description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, reiciendis!',
+    title:'Container et orchestration',
+    description:'Docker and Kubernete',
     href:''
   },
-  {
-    num:'04',
-    title:'UX Design',
-    description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, reiciendis!',
-    href:''
-  },
-  {
-    num:'04',
-    title:'Devops',
-    description:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, reiciendis!',
-    href:''
-  },
+    
 ]
 
 

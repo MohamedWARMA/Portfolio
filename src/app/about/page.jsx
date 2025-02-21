@@ -1,13 +1,13 @@
 'use client'
 
-import { FaHtml5 , FaCss3, FaJs, FaReact, FaNodeJs  } from "react-icons/fa"
+import { FaHtml5 , FaCss3, FaJs, FaReact, FaNodeJs, FaPython, FaDatabase, FaTerminal, FaJava, FaCoffee, FaCode, FaDocker  } from "react-icons/fa"
 import { SiTailwindcss, SiNextdotjs} from 'react-icons/si'
 
 
 const about =
   {
     title:"About me",
-    description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus a neque similique.",
+    description:"",
     info : [
       {
         fieldName : "Name",
@@ -19,7 +19,7 @@ const about =
       },
       {
         fieldName : "Experience",
-        fieldValue : "3+ years",
+        fieldValue : "< 3 years",
       },
       {
         fieldName : "Nationality",
@@ -44,7 +44,7 @@ const about =
 const experience = {
   icon : '',
   title: "My experience",
-  description : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus a neque similique.',
+  description : '',
   items:[
     {
       company: 'Freelance',
@@ -57,7 +57,7 @@ const experience = {
 const education = {
   icon : '',
   title: "My education / certifications",
-  description : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus a neque similique.',
+  description : '',
   items:[
     {
       institute: 'New Dawn University',
@@ -67,7 +67,7 @@ const education = {
 
     {
       institute: 'IBM course on Coursera',
-      degree:'Full stack Software Engineering',
+      degree:'Full-stack Software Engineering Certification',
       duration: "2022 - 2025"
     },
   ]
@@ -76,7 +76,7 @@ const education = {
 const skills = {
  
   title: "My skills",
-  description : 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus a neque similique.',
+  description : '',
   skillist:[
     {
       icon: <FaHtml5/>,
@@ -107,7 +107,21 @@ const skills = {
       icon: <FaNodeJs/>,
       name:'NodeJS',
     },
-   
+
+    {
+      icon: <FaPython/>,
+      name:'Python',
+    },
+
+    {
+      icon: <FaDatabase/>,
+      name:'SQL',
+    },
+    {
+      icon: <FaTerminal/>,
+      name:'Bash',
+    },
+       
   ]
 }
 
@@ -174,7 +188,7 @@ function About() {
                        
                         <li key={index} className="bg-[#ffff] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1">
                           <span className="text-accent">{item.duration}</span>
-                          <h3 className="text-xl max-w-[240px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
+                          <h3 className="text-xl max-w-[300px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
                           <div className="flex items-center gap-3">
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                             <p className="text-black">{item.institute}</p>

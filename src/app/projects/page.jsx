@@ -40,7 +40,7 @@ const projects = [
 function Projects() {
   const [project, setProject] = useState(projects[0]);
   return (
-    <div>Projects</div>
+    <div className='text-center mt-10'>Under Development</div>
   )
 }
 
